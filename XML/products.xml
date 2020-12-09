@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+
+    
+    <products>
+        <product id="111">
+            
+            <category>Wearable</category>
+			<id>111</id>
+            <name>N95 -Face Mask</name>
+			<description>99% Efficient filtering 
+			droplets and 95% Aerosols. Indicated for Healthcare proffesionals.</description>
+			<quantity>500</quantity>
+			<price currency="Euro">€40,00</price>
+        </product>
+		
+		<product id="222">
+            
+            <category>Wearable</category>
+            <id>222</id>
+            <name>Surgical Mask -Face Mask</name>
+			<description>98.5% Efficient filtering 
+			droplets and 89.5% Aerosols. Indicated for Healthcare proffesionals.</description>
+			<quantity>500</quantity>
+			<price currency="Euro">€38,00</price>
+        </product>
+		
+		<product id="333">
+            
+            <category>Wearable</category>
+            <id>333</id>
+            <name>Hybrid Mask -Face Mask</name>
+			<description>96% Efficient filtering 
+			droplets and 94% Aerosols. Indicated for Public Indoor and crowded areas.</description>
+			<quantity>400</quantity>
+			<price currency="Euro">€30,00</price>
+        </product>
+		
+		<product id="444">
+            
+            <category>Wearable</category>
+            <id>444</id>
+            <name>Two-layer cotton mask</name>
+			<description>99.5% Efficient filtering 
+			droplets and 82% Aerosols. Indicated for Public Indoor and crowded areas.</description>
+			<quantity>450</quantity>
+			<price currency="Euro">€30,00</price>
+        </product>
+		
+		<product id="555">
+            
+            <category>Wearable</category>
+            <id>555</id>
+            <name>Tea Towel or Dishcloth</name>
+			<description>98% Efficient filtering 
+			droplets and 72.5% Aerosols. Indicated for Outdoor aereas.</description>
+			<quantity>300</quantity>
+			<price currency="Euro">€28,00</price>
+        </product>
+		
+		<product id="666">
+            
+            <category>Wearable</category>
+            <id>666</id>
+            <name>100% cotton t-shirt</name>
+			<description>97% Efficient filtering 
+			droplets and 51% Aerosols. Indicated for Outdoor aereas</description>
+			<quantity>350</quantity>
+			<price currency="Euro">€25,00</price>
+        </product>
+		
+		<product id="777">
+            
+            <category>Wearable</category>
+            <id>777</id>
+            <name>Natural Silk</name>
+			<description>56% Efficient filtering 
+			droplets and 54% Aerosols. Indicated for Outdoor aereas</description>
+			<quantity>500</quantity>
+			<price currency="Euro">€15,00</price>
+        </product>
+		
+		<product id="888">
+            
+            <category>Wearable</category>
+            <id>888</id>
+            <name>Mask with built-in valve or vent</name>
+			<description>90% Efficient filtering 
+			droplets and 90% Aerosols. Indicated for Outdoor aereas</description>
+			<quantity>5</quantity>
+			<price currency="Euro">€28,00</price>
+        </product>
+		
+		<product id="999">
+            
+            <category>Cleaning and Disinfecting</category>
+            <id>999</id>
+            <name>Surface Disinfecting Wipes</name>
+			<description>Kills 99.9% Viruses and Bacteria</description>
+			<quantity>850</quantity>
+			<price currency="Euro">€10,00</price>
+        </product>
+		
+		<product id="1000">
+            
+            <category>Cleaning and Disinfecting</category>
+            <id>1000</id>
+            <name>Hands Wipes</name>
+			<description>Antimicrobial Hand Wipes are dermatologically tested. They are perfect pocket essentials</description>
+			<quantity>800</quantity>
+			<price currency="Euro">€8,00</price>
+        </product>
+        
+    </products>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://codeinvestigator.com/products1.xsd" 
+                                                         xmlns="http://codeinvestigator.com/products1.xsd">
+
+
+<!--This is for the atribute price-->
+    <xs:complexType name="priceType">
+        <xs:simpleContent>
+            <xs:extension base="xs:double">
+                <xs:attribute name="currency" type="xs:string" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+<!--Each product and all its elements-->
+    <xs:complexType name="productType">
+        <xs:all>
+            <xs:element name="category" type="xs:string" />
+            <xs:element name="id" type="xs:int" />
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="quantity" type="xs:int" />
+            <xs:element name="price" type="priceType" />
+
+        </xs:all>
+    </xs:complexType>
+<!--Each product inside products from 1 to unbounded-->
+    <xs:complexType name="productsType">
+        <xs:sequence minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="product" type="productType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="shopType">
+        <xs:all>
+            <xs:element name="company" type="xs:string" />
+
+            <xs:element name="products" type="productsType" />
+
+        </xs:all>
+    </xs:complexType>
+
+    <xs:element name="shop" type="shopType" />
+
+</xs:schema>

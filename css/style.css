@@ -1,0 +1,352 @@
+/* Make carrousel image fully responsive */
+.carousel-inner img {
+    width: 70%;
+    max-height: 500px;
+}
+
+/* Navbar */
+#navb{
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+
+/* Footer */
+footer{
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+ 
+a, p, h1, h5, .footer-copyright{
+      color: white;
+  }
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+/* Contact form*/
+
+.forminfo{
+    text-align: justify;
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "calibri";
+    transition: all 4s ease-in-out; /* Zoom-out effect */
+    border-radius: 20px;
+}
+    
+.forminfo input{
+    margin-top: 8px;
+    width: 96%;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.forminfo textarea{
+    margin-top: 18px; 
+    width: 96%;
+    height: 140px;
+    border-radius: 10px;
+}
+    
+.forminfo p{
+    margin-top: 8px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-size: 28px;
+    font-family: "calibri";
+    
+}
+.contL{ 
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-size: 40px;
+    font-family: "calibri";
+}
+.buttonS{
+    border-radius: 5px;
+    margin:2%;
+    padding: 4px;
+    font-family: "calibri";
+    
+}
+.buttonS:hover{
+    background-color: #8bd2df;
+      
+}
+
+/* This centralize the map as well */
+.formInvite, .map{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* This is the about page*/
+
+.text{
+    max-width: 70%;
+    height: 400px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    padding: 50px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 55px;
+}
+
+.photo{
+    width: 100%;
+    height: 400px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 0%; 
+    background-color: rgb(11, 13, 19);
+    border-radius: 55px;
+}
+
+.aboutP{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 14px;
+}
+.namesA{
+    font-size: 23px;
+}
+#picTamara{
+    border-radius: 55px;
+}
+#picIgorDS{
+    border-radius: 55px;
+    
+}
+
+
+ /* Tablet Styles about page */
+
+ 
+ @media only screen and (max-width: 1200px) {
+    .namesA{
+        font-size: 20px;
+    }
+    .aboutP{
+        font-size: 15px;
+    }
+    
+    
+ }
+ @media only screen and (max-width: 992px) {
+    .namesA{
+        font-size: 15px;
+    }
+    .aboutP{
+        font-size: 12px;
+    }
+     /* letters from Search page */
+    .letters{
+        font-size: 50px;
+    }
+    
+    
+ }
+ @media only screen and (max-width: 768px) {
+    .namesA{
+        font-size: 20px;
+    }
+    .aboutP{
+        font-size: 15px;
+    }
+    .text{
+        max-width: 100%;
+        height: 400px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+        padding: 50px;
+        padding-top: 30px;
+        text-align: center;
+        border-radius: 55px;
+    }
+    .letters{
+        font-size: 40px;
+    }
+ }
+
+/* This is the company page*/
+
+.mission-box{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 10%;
+}
+
+
+h4{
+    font-size: 20px;
+}
+
+
+/* This is the logos inside company page */
+
+.value-pictures{
+    padding: 15px 15px;
+    margin-top: 5px;
+    text-align: center;
+    color:white;
+}
+
+
+.h2-value{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color:white;
+}
+.maintext{
+    color:white;
+    line-height: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.maintext1{
+    color:white;
+    line-height: 2;
+    margin-bottom: 20%;
+    
+}
+
+.h6-company{
+    font-size: 50px;
+    color: white;
+}
+
+.row-title{
+    text-align: center;
+}
+
+.row-text{
+    margin-top: 20px;
+}
+
+/* Products page */
+.containerProducts{
+ background-color: #afd1f8;
+ padding: 20px;
+ height: 1000px;
+ 
+}
+
+/* This section is about the search bar in the Search page */
+
+body {
+    font-family:"calibri";
+    background-color: #111d4a;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+#code{
+    width: 70%;  /* Styling for the search bar */ 
+}
+
+
+/* CSS Effect for the moving letters  */
+.search {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+  }
+  
+  .search .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .search .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+/* end of CSS Effect for the moving letters  */
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#productsList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.products {
+    list-style-type: none;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        'name image'
+        'house image';
+    text-align: left;
+}
+
+.products > h2 {
+    grid-area: name;
+    margin-bottom: 0px;
+}
+
+.products > p {
+    grid-area: house;
+    margin: 0;
+    margin-top: -18px;
+}
+
+.products > img {
+    max-height: 100px;
+    grid-area: image;
+}
+
+#searchBar {
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#searchWrapper {
+    position: relative;
+}
+
+#searchWrapper::after {
+    content: '🔍';
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}
+
+
+/* End of the Search page */

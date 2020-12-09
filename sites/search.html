@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stay Safe-19</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css"> <!--link to the website's unique CSS file-->
+  <link rel="stylesheet" href="../css/reset.css"> <!--link to the website's CSS file that allows bootstrap modification-->
+  <script defer="defer" src="../js/search.js"></script> <!--link to the website's unique js file-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body>
+
+<!--This is the navbar -->
+<nav class="navbar navbar-expand-md navbar-dark" id="navb">
+  <a class="navbar-brand" href="../index.html">StaySafe-19</a> <!--Logo/Name of the company and link to home page-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a> <!--Home page-->
+     </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../XML/products.xml">Products</a> <!--Products page-->
+     </li>
+        <li class="nav-item">
+            <a class="nav-link" href="search.html">Search</a> <!--Search page-->
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a> <!--Contact page-->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a> <!--About page-->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="company.html">Company</a> <!--Company page-->
+      </li>    
+    </ul>
+  </div>  
+</nav>  <!--End of the Navbar section-->
+
+<!--Search bar by given ID-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="search">
+        <span class="text-wrapper">
+          <span class="letters">Search your Product by ID here</span> <!-- The header above the search bar  -->
+        </span>
+      </h1> 
+    </div>  
+  </div>
+  <div class="row">
+    <div class="col-sm-10">
+      <div style="padding: 20px;">
+        <label for="code"></label>
+        <input type="text" id="code" name="code">
+        <button class="buttonS" id="search" type="button">Search</button>  <!--Button to make the search-->     
+      </div>
+    </div>
+  </div>
+</div>
+<div id="result" style="padding: 15px; margin-top: 30px; margin-left: 20px;"></div>
+<!--End of the search bar section-->
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+    <!-- Footer Links -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="../index.html">Home</a> <!-- home page -->     
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="../XML/products.xml">Products</a> <!-- Products page -->     
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="contact.html">Contact</a> <!-- Contact page -->     
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="about.html">About</a> <!-- About page -->     
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="company.html">Company</a> <!-- Company page -->     
+          </h6>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+  
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center">
+  
+        <!-- Grid column -->
+        <div class="col-md-8 col-12">
+          <p>At Stay Safe 19 we care about our customers. Our mission is to 
+            protect people through prevention, supplying a range of products focused 
+            on maintaining the health and safety of our clients. Stay with us and
+             browse our products, "because prevention is our best shot".</p>
+        </div>
+        <!-- Grid column -->
+  
+      </div> 
+  
+    </div>
+  
+    <!-- Copyright -->
+    <hr>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Stay Safe-19
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+</body>
+</html>

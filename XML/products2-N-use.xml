@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ss:shop
+   xmlns:ss="http://codeinvestigator.com/spacestation.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   
+   xsi:schemaLocation="http://codeinvestigator.com/spacestation.xsd spacestationLO.xsd">
+   
+    <company>SS-19</company>
+    
+    <products>
+        <product>
+            
+            <category>Cleaning and Desinfecting</category>
+            <id>11</id>
+            <name>Multisurface Desinfecting Spray (Bleach)</name>
+			<description>Kills 99.9% bacterias and viruses.</description>
+			<quantity>500</quantity>
+			<price currency="Euro">3.50</price>
+        </product>
+		
+		<product>
+            
+            <category>Cleaning and Desinfecting</category>
+            <id>12</id>
+            <name>Multisurface Desinfecting Spray (Bleach free)</name>
+			<description>Kills 99.8% bacterias and viruses.</description>
+			<quantity>951</quantity>
+			<price currency="Euro">3.20</price>
+        </product>
+		
+		<product>
+            
+            <category>Cleaning and Desinfecting</category>
+            <id>13</id>
+            <name>Hand Sanitiser - 100ml</name>
+			<description>Kills 99.9% bacterias and viruses. Efficient against COVID-19.</description>
+			<quantity>10002</quantity>
+			<price currency="Euro">2.50</price>
+        </product>
+		
+		<product>
+            
+            <category>Cleaning and Desinfecting</category>
+            <id>14</id>
+            <name>Hand Sanitiser - 500ml</name>
+			<description>Kills 99.9% bacterias and viruses. Efficient against COVID-19.</description>
+			<quantity>8940</quantity>
+			<price currency="Euro">5.30</price>
+        </product>
+		
+		<product>
+            
+            <category></category>
+            <id>15</id>
+            <name>Hand Sanitiser - 1.5L</name>
+			<description>Kills 99.9% bacterias and viruses. Efficient against COVID-19.</description>
+			<quantity>3498</quantity>
+			<price currency="Euro">10.99</price>
+        </product>
+		
+		<product>
+            
+            <category>Wearable</category>
+            <id>16</id>
+            <name>Face-Shield</name>
+			<description>This Face-shield is a fully Certified (EN-166) re-usable and robust face protector designed to be used as an aid to help prevent the contamination of the wearer from fluids such as splashes and droplets from external sources.</description>
+			<quantity>4657</quantity>
+			<price currency="Euro">7.99</price>
+        </product>
+		
+		<product>
+            
+            <category></category>
+            <id>17</id>
+            <name>Disposable Aprons - 100</name>
+			<description>The Disposable Aprons are white disposable polythene aprons with halter neck and waist ties. They are supplied in a convenient flat pack which allows easy, non-stick removal of each apron.</description>
+			<quantity>2405</quantity>
+			<price currency="Euro">24.55</price>
+        </product>
+		
+		<product>
+            
+            <category>Wearable</category>
+            <id>18</id>
+            <name>Head Disposable Covering - 100</name>
+			<description>Disposable Bouffant Caps-Elastic Around The Head For Secure Fit, Filament-Covered Synthetic Elastic Edge</description>
+			<quantity>1837</quantity>
+			<price currency="Euro">19.95</price>
+        </product>
+		
+		<product>
+            
+            <category>Wearable</category>
+            <id>19</id>
+            <name>Goggles</name>
+			<description>Disposable Bouffant Caps-Elastic Around The Head For Secure Fit, Filament-Covered Synthetic Elastic Edge - Comfortable and Economical</description>
+			<quantity>239</quantity>
+			<price currency="Euro">15</price>
+        </product>
+		
+		<product>
+            
+            <category>Wearable</category>
+            <id>20</id>
+            <name>Full-Back Gowns - 100</name>
+			<description>Full-back isolation gowns are designed to help staff achieve full coverage every time.</description>
+			<quantity>539</quantity>
+			<price currency="Euro">37.99</price>
+        </product>
+        
+    </products>
+</ss:shop>
